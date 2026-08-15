@@ -1,0 +1,40 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AdminWildcard",
+      "Effect": "Allow",
+      "Action": "*",
+      "Resource": "*"
+    },
+    {
+      "Sid": "LambdaEscalation",
+      "Effect": "Allow",
+      "Action": [
+        "lambda:CreateFunction",
+        "lambda:InvokeFunction",
+        "iam:PassRole"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "DestructiveNoMFA",
+      "Effect": "Allow",
+      "Action": [
+        "ec2:TerminateInstances",
+        "rds:DeleteDBInstance",
+        "s3:DeleteBucket"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "BackwardNotAction",
+      "Effect": "Allow",
+      "NotAction": [
+        "iam:CreateVirtualMFADevice",
+        "iam:EnableMFADevice"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
