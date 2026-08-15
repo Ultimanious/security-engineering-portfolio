@@ -98,4 +98,3 @@ python <tool>.py --help
 
 ---
 
-*Built with daily sessions alongside Claude (Anthropic). Each project is independently functional and documented.*
