@@ -66,7 +66,7 @@ python iam_auditor.py --file policy.json --no-colour
 
 ---
 
-## Example Output
+## Example Output (usability and visuals improved by Claude)
 
 Running against the intentionally bad policy in `tests/bad_policy.json`:
 
