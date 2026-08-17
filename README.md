@@ -12,7 +12,7 @@ A self-directed, project-driven curriculum in security engineering — built one
 | # | Project | Domain | Type | Skills Demonstrated |
 |---|---------|--------|------|---------------------|
 | 01 | [IAM Policy Auditor](projects/01-iam-policy-auditor/) | ☁️ Cloud | Tool | Least privilege, privilege escalation, static analysis |
-| 02 | Network Traffic Analyzer | 🌐 Network | Tool | Packet parsing, protocol analysis, anomaly detection |
+| 02 | [Network Traffic Analyzer](projects/02-network-traffic-analyzer/) | 🌐 Network | Tool | Packet parsing, TCP flags, DNS tunnelling, beaconing detection |
 | 03 | Secrets Scanner | 🔐 SecEng | Tool | Regex, entropy analysis, CI/CD integration |
 | 04 | Cloud Logging Monitor | ☁️ Cloud | Tool | CloudTrail, SIEM concepts, detection engineering |
 | 05 | JWT Security Toolkit | 🔐 SecEng | Tool | Auth flows, algorithm confusion attacks, token forgery |
