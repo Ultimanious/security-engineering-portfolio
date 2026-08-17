@@ -9,7 +9,7 @@
 
 ## What This Is
 
-A static analysis tool that parses AWS IAM policy JSON files and flags security misconfigurations before they ever reach production. Think of it as a linter for your IAM policies — it can run locally, in CI/CD pipelines, or as part of a pre-commit hook.
+A static analysis tool that parses AWS IAM policy JSON files and flags security misconfigurations before they ever reach production. Think of it as a linter for your IAM policies; it can run locally, in CI/CD pipelines, or as part of a pre-commit hook.
 
 No AWS credentials required. It works entirely on policy JSON files.
 
@@ -17,7 +17,7 @@ No AWS credentials required. It works entirely on policy JSON files.
 
 ## Why IAM Security Matters
 
-IAM (Identity and Access Management) is the access control layer for everything in AWS. A misconfigured IAM policy is one of the most common root causes of cloud security incidents — overly permissive roles, public S3 buckets, and privilege escalation paths have all led to major real-world breaches (Capital One 2019, Twitch 2021, and many others).
+IAM (Identity and Access Management) is the access control layer for everything in AWS. A misconfigured IAM policy is one of the most common root causes of cloud security incidents: overly permissive roles, public S3 buckets, and privilege escalation paths have all led to major real-world breaches (Capital One 2019, Twitch 2021, and many others).
 
 Security engineers need to understand:
 - The principle of least privilege
